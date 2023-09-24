@@ -364,6 +364,10 @@ body::-webkit-scrollbar {
     width: 24px;
 }
 
+.bottom-svg:hover{
+    fill: white;
+}
+
 .recently-played1{
     display: flex;
     justify-content: space-between;
@@ -618,4 +622,91 @@ body::-webkit-scrollbar {
   
 .spotify-slider1::-webkit-slider-thumb {
     display: none;
+}
+
+.footer-links{
+    display: flex;
+    gap: 100px;
+}
+
+.main-player-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 40px 30px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.company-title{
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.footer-links{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.footer-links:hover{
+    /* text-decoration: underline; */
+    color: white;
+}
+
+.footer-social-media{
+    display: flex;
+    gap: 10px;
+}
+
+.social-media{
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #232323;
+    align-items: center;
+}
+
+.social-media:hover{
+    color: rgb(114, 114, 114);
+}
+
+.social-media svg{
+    fill: white;
+}
+
+.footer-divider{
+    border-top: 1px solid #232323;
+    margin: 0 40px;
+    margin-bottom: 40px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px 70px 40px;
+}
+
+.footer-bl{
+    text-decoration: none;
+    color: #a7a7a7;
+}
+
+.footer-bottom-links{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-bl:hover{
+    color: white;
+}
+
+.footer-copyrights span{
+    color: #a7a7a7;
 }
